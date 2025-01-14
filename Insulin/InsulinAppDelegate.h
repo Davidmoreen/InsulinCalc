@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface InsulinAppDelegate : UIResponder <UIApplicationDelegate>
+{
+	UIWindow *window;
+	UIViewController *viewController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) UIViewController *viewController;
 
 @end

@@ -7,25 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63102585167F7B7100F47ABA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63102584167F7B7100F47ABA /* Default-568h@2x.png */; };
+		6313A11C143F8B1100470538 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6313A11B143F8B1100470538 /* InfoViewController.m */; };
+		6321BAFB143BDB9300B0E9ED /* text_input_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6321BAFA143BDB9300B0E9ED /* text_input_bg@2x.png */; };
+		6321BB00143BE05900B0E9ED /* text_input_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6321BAFF143BE05900B0E9ED /* text_input_bg.png */; };
+		6321BB07143BE4A200B0E9ED /* donedown.png in Resources */ = {isa = PBXBuildFile; fileRef = 6321BB05143BE4A200B0E9ED /* donedown.png */; };
+		6321BB08143BE4A200B0E9ED /* doneup.png in Resources */ = {isa = PBXBuildFile; fileRef = 6321BB06143BE4A200B0E9ED /* doneup.png */; };
+		6321BB10143BF15200B0E9ED /* green_button_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 6321BB0C143BF15200B0E9ED /* green_button_active.png */; };
+		6321BB11143BF15200B0E9ED /* green_button_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6321BB0D143BF15200B0E9ED /* green_button_active@2x.png */; };
+		6321BB12143BF15200B0E9ED /* green_button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6321BB0E143BF15200B0E9ED /* green_button_normal.png */; };
+		6321BB13143BF15200B0E9ED /* green_button_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6321BB0F143BF15200B0E9ED /* green_button_normal@2x.png */; };
+		6333CEC014DB95F900DC9A39 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6333CEBF14DB95F900DC9A39 /* AudioToolbox.framework */; };
+		6333CEC214DB960300DC9A39 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6333CEC114DB960300DC9A39 /* CFNetwork.framework */; };
+		6333CEC414DB960900DC9A39 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6333CEC314DB960900DC9A39 /* SystemConfiguration.framework */; };
+		6333CEC614DB960F00DC9A39 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6333CEC514DB960F00DC9A39 /* MobileCoreServices.framework */; };
+		6333CEC814DB962000DC9A39 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6333CEC714DB962000DC9A39 /* libz.1.1.3.dylib */; };
+		6333CECA14DB962700DC9A39 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6333CEC914DB962700DC9A39 /* Security.framework */; };
 		633F08EA143A9E2400D3CC71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633F08E9143A9E2400D3CC71 /* UIKit.framework */; };
 		633F08EC143A9E2400D3CC71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633F08EB143A9E2400D3CC71 /* Foundation.framework */; };
 		633F08EE143A9E2400D3CC71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633F08ED143A9E2400D3CC71 /* CoreGraphics.framework */; };
 		633F08F4143A9E2400D3CC71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 633F08F2143A9E2400D3CC71 /* InfoPlist.strings */; };
 		633F08F6143A9E2400D3CC71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633F08F5143A9E2400D3CC71 /* main.m */; };
 		633F08FA143A9E2400D3CC71 /* InsulinAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633F08F9143A9E2400D3CC71 /* InsulinAppDelegate.m */; };
+		633F0904143A9EA300D3CC71 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 633F0901143A9EA300D3CC71 /* Default@2x.png */; };
+		633F0905143A9EA300D3CC71 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 633F0902143A9EA300D3CC71 /* Icon.png */; };
+		633F0906143A9EA300D3CC71 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 633F0903143A9EA300D3CC71 /* icon@2x.png */; };
+		633F0908143A9EF600D3CC71 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 633F0907143A9EF600D3CC71 /* Default.png */; };
+		633F0914143AA51700D3CC71 /* InsulinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633F0913143AA51700D3CC71 /* InsulinViewController.m */; };
+		633F091B143AA92A00D3CC71 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 633F091A143AA92A00D3CC71 /* background.png */; };
+		633F0920143AB37E00D3CC71 /* UIView+JMNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 633F091F143AB37E00D3CC71 /* UIView+JMNoise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		633F0922143B8C5D00D3CC71 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633F0921143B8C5D00D3CC71 /* QuartzCore.framework */; };
+		633F0925143B8FEB00D3CC71 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 633F0923143B8FEB00D3CC71 /* logo.png */; };
+		633F0926143B8FEB00D3CC71 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 633F0924143B8FEB00D3CC71 /* logo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63102584167F7B7100F47ABA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6313A11A143F8B1100470538 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		6313A11B143F8B1100470538 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		6321BAFA143BDB9300B0E9ED /* text_input_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text_input_bg@2x.png"; sourceTree = "<group>"; };
+		6321BAFF143BE05900B0E9ED /* text_input_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_input_bg.png; sourceTree = "<group>"; };
+		6321BB05143BE4A200B0E9ED /* donedown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donedown.png; sourceTree = "<group>"; };
+		6321BB06143BE4A200B0E9ED /* doneup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doneup.png; sourceTree = "<group>"; };
+		6321BB0C143BF15200B0E9ED /* green_button_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_button_active.png; sourceTree = "<group>"; };
+		6321BB0D143BF15200B0E9ED /* green_button_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green_button_active@2x.png"; sourceTree = "<group>"; };
+		6321BB0E143BF15200B0E9ED /* green_button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_button_normal.png; sourceTree = "<group>"; };
+		6321BB0F143BF15200B0E9ED /* green_button_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green_button_normal@2x.png"; sourceTree = "<group>"; };
+		6333CEBF14DB95F900DC9A39 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6333CEC114DB960300DC9A39 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6333CEC314DB960900DC9A39 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6333CEC514DB960F00DC9A39 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6333CEC714DB962000DC9A39 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		6333CEC914DB962700DC9A39 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		633F08E5143A9E2400D3CC71 /* Insulin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insulin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		633F08E9143A9E2400D3CC71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		633F08EB143A9E2400D3CC71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		633F08ED143A9E2400D3CC71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		633F08F1143A9E2400D3CC71 /* Insulin-Info.plist */ = {isa = PBXFileReference; path = "Insulin-Info.plist"; sourceTree = "<group>"; };
+		633F08F1143A9E2400D3CC71 /* Insulin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Insulin-Info.plist"; sourceTree = "<group>"; };
 		633F08F3143A9E2400D3CC71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		633F08F5143A9E2400D3CC71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		633F08F7143A9E2400D3CC71 /* Insulin-Prefix.pch */ = {isa = PBXFileReference; path = "Insulin-Prefix.pch"; sourceTree = "<group>"; };
-		633F08F8143A9E2400D3CC71 /* InsulinAppDelegate.h */ = {isa = PBXFileReference; path = InsulinAppDelegate.h; sourceTree = "<group>"; };
+		633F08F7143A9E2400D3CC71 /* Insulin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Insulin-Prefix.pch"; sourceTree = "<group>"; };
+		633F08F8143A9E2400D3CC71 /* InsulinAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsulinAppDelegate.h; sourceTree = "<group>"; };
 		633F08F9143A9E2400D3CC71 /* InsulinAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsulinAppDelegate.m; sourceTree = "<group>"; };
+		633F0901143A9EA300D3CC71 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		633F0902143A9EA300D3CC71 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		633F0903143A9EA300D3CC71 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		633F0907143A9EF600D3CC71 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		633F0912143AA51700D3CC71 /* InsulinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsulinViewController.h; sourceTree = "<group>"; };
+		633F0913143AA51700D3CC71 /* InsulinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsulinViewController.m; sourceTree = "<group>"; };
+		633F091A143AA92A00D3CC71 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		633F091E143AB37E00D3CC71 /* UIView+JMNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JMNoise.h"; sourceTree = "<group>"; };
+		633F091F143AB37E00D3CC71 /* UIView+JMNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMNoise.m"; sourceTree = "<group>"; };
+		633F0921143B8C5D00D3CC71 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		633F0923143B8FEB00D3CC71 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		633F0924143B8FEB00D3CC71 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,9 +88,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633F0922143B8C5D00D3CC71 /* QuartzCore.framework in Frameworks */,
+				6333CECA14DB962700DC9A39 /* Security.framework in Frameworks */,
+				6333CEC814DB962000DC9A39 /* libz.1.1.3.dylib in Frameworks */,
+				633F08EE143A9E2400D3CC71 /* CoreGraphics.framework in Frameworks */,
+				6333CEC614DB960F00DC9A39 /* MobileCoreServices.framework in Frameworks */,
+				6333CEC414DB960900DC9A39 /* SystemConfiguration.framework in Frameworks */,
+				6333CEC214DB960300DC9A39 /* CFNetwork.framework in Frameworks */,
+				6333CEC014DB95F900DC9A39 /* AudioToolbox.framework in Frameworks */,
 				633F08EA143A9E2400D3CC71 /* UIKit.framework in Frameworks */,
 				633F08EC143A9E2400D3CC71 /* Foundation.framework in Frameworks */,
-				633F08EE143A9E2400D3CC71 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,9 +107,18 @@
 		633F08DA143A9E2400D3CC71 = {
 			isa = PBXGroup;
 			children = (
+				63102584167F7B7100F47ABA /* Default-568h@2x.png */,
 				633F08EF143A9E2400D3CC71 /* Insulin */,
+				633F091C143AB36E00D3CC71 /* Libraries */,
+				633F0900143A9E7600D3CC71 /* Resources */,
 				633F08E8143A9E2400D3CC71 /* Frameworks */,
 				633F08E6143A9E2400D3CC71 /* Products */,
+				6333CEC914DB962700DC9A39 /* Security.framework */,
+				6333CEC714DB962000DC9A39 /* libz.1.1.3.dylib */,
+				6333CEC514DB960F00DC9A39 /* MobileCoreServices.framework */,
+				6333CEC314DB960900DC9A39 /* SystemConfiguration.framework */,
+				6333CEC114DB960300DC9A39 /* CFNetwork.framework */,
+				6333CEBF14DB95F900DC9A39 /* AudioToolbox.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +133,7 @@
 		633F08E8143A9E2400D3CC71 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				633F0921143B8C5D00D3CC71 /* QuartzCore.framework */,
 				633F08E9143A9E2400D3CC71 /* UIKit.framework */,
 				633F08EB143A9E2400D3CC71 /* Foundation.framework */,
 				633F08ED143A9E2400D3CC71 /* CoreGraphics.framework */,
@@ -72,6 +144,7 @@
 		633F08EF143A9E2400D3CC71 /* Insulin */ = {
 			isa = PBXGroup;
 			children = (
+				63F4239814417EDE00829637 /* Classes */,
 				633F08F8143A9E2400D3CC71 /* InsulinAppDelegate.h */,
 				633F08F9143A9E2400D3CC71 /* InsulinAppDelegate.m */,
 				633F08F0143A9E2400D3CC71 /* Supporting Files */,
@@ -88,6 +161,56 @@
 				633F08F7143A9E2400D3CC71 /* Insulin-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		633F0900143A9E7600D3CC71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6321BB0C143BF15200B0E9ED /* green_button_active.png */,
+				6321BB0D143BF15200B0E9ED /* green_button_active@2x.png */,
+				6321BB0E143BF15200B0E9ED /* green_button_normal.png */,
+				6321BB0F143BF15200B0E9ED /* green_button_normal@2x.png */,
+				6321BB05143BE4A200B0E9ED /* donedown.png */,
+				6321BB06143BE4A200B0E9ED /* doneup.png */,
+				6321BAFA143BDB9300B0E9ED /* text_input_bg@2x.png */,
+				633F0923143B8FEB00D3CC71 /* logo.png */,
+				633F0924143B8FEB00D3CC71 /* logo@2x.png */,
+				6321BAFF143BE05900B0E9ED /* text_input_bg.png */,
+				633F091A143AA92A00D3CC71 /* background.png */,
+				633F0907143A9EF600D3CC71 /* Default.png */,
+				633F0901143A9EA300D3CC71 /* Default@2x.png */,
+				633F0902143A9EA300D3CC71 /* Icon.png */,
+				633F0903143A9EA300D3CC71 /* icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		633F091C143AB36E00D3CC71 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				633F091D143AB37E00D3CC71 /* JMNoise */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		633F091D143AB37E00D3CC71 /* JMNoise */ = {
+			isa = PBXGroup;
+			children = (
+				633F091E143AB37E00D3CC71 /* UIView+JMNoise.h */,
+				633F091F143AB37E00D3CC71 /* UIView+JMNoise.m */,
+			);
+			path = JMNoise;
+			sourceTree = "<group>";
+		};
+		63F4239814417EDE00829637 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				633F0912143AA51700D3CC71 /* InsulinViewController.h */,
+				633F0913143AA51700D3CC71 /* InsulinViewController.m */,
+				6313A11A143F8B1100470538 /* InfoViewController.h */,
+				6313A11B143F8B1100470538 /* InfoViewController.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,11 +238,15 @@
 /* Begin PBXProject section */
 		633F08DC143A9E2400D3CC71 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 633F08DF143A9E2400D3CC71 /* Build configuration list for PBXProject "Insulin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 633F08DA143A9E2400D3CC71;
@@ -138,6 +265,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				633F08F4143A9E2400D3CC71 /* InfoPlist.strings in Resources */,
+				633F0904143A9EA300D3CC71 /* Default@2x.png in Resources */,
+				633F0905143A9EA300D3CC71 /* Icon.png in Resources */,
+				633F0906143A9EA300D3CC71 /* icon@2x.png in Resources */,
+				633F0908143A9EF600D3CC71 /* Default.png in Resources */,
+				633F091B143AA92A00D3CC71 /* background.png in Resources */,
+				633F0925143B8FEB00D3CC71 /* logo.png in Resources */,
+				633F0926143B8FEB00D3CC71 /* logo@2x.png in Resources */,
+				6321BAFB143BDB9300B0E9ED /* text_input_bg@2x.png in Resources */,
+				6321BB00143BE05900B0E9ED /* text_input_bg.png in Resources */,
+				6321BB07143BE4A200B0E9ED /* donedown.png in Resources */,
+				6321BB08143BE4A200B0E9ED /* doneup.png in Resources */,
+				6321BB10143BF15200B0E9ED /* green_button_active.png in Resources */,
+				6321BB11143BF15200B0E9ED /* green_button_active@2x.png in Resources */,
+				6321BB12143BF15200B0E9ED /* green_button_normal.png in Resources */,
+				6321BB13143BF15200B0E9ED /* green_button_normal@2x.png in Resources */,
+				63102585167F7B7100F47ABA /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +293,9 @@
 			files = (
 				633F08F6143A9E2400D3CC71 /* main.m in Sources */,
 				633F08FA143A9E2400D3CC71 /* InsulinAppDelegate.m in Sources */,
+				633F0914143AA51700D3CC71 /* InsulinViewController.m in Sources */,
+				633F0920143AB37E00D3CC71 /* UIView+JMNoise.m in Sources */,
+				6313A11C143F8B1100470538 /* InfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +361,15 @@
 		633F08FE143A9E2400D3CC71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Insulin/Insulin-Prefix.pch";
 				INFOPLIST_FILE = "Insulin/Insulin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -226,9 +378,15 @@
 		633F08FF143A9E2400D3CC71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Insulin/Insulin-Prefix.pch";
 				INFOPLIST_FILE = "Insulin/Insulin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -244,7 +402,7 @@
 				633F08FC143A9E2400D3CC71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		633F08FD143A9E2400D3CC71 /* Build configuration list for PBXNativeTarget "Insulin" */ = {
 			isa = XCConfigurationList;
@@ -253,6 +411,7 @@
 				633F08FF143A9E2400D3CC71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,15 +8,25 @@
 
 #import "InsulinAppDelegate.h"
 
+#import "InsulinViewController.h"
+
 @implementation InsulinAppDelegate
 
 @synthesize window = _window;
+@synthesize viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    [self.window makeKeyAndVisible];
+    [window setBackgroundColor:[UIColor whiteColor]];
+	
+	viewController = [[InsulinViewController alloc] initWithNibName:nil bundle:nil];
+	
+	self.window.rootViewController = viewController;
+	
+	[self.window makeKeyAndVisible];
+	
     return YES;
 }
 
